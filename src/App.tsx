@@ -39,6 +39,11 @@ const MainContent = styled.div`
     border-radius: 8px;
     width: 8px;
   }
+    @media (max-width:768px){
+    &::-webkit-scrollbar {
+    border-radius: 0px;
+    width: 2px;
+  }
 `;
 
 const App: React.FC = () => {
