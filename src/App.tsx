@@ -14,7 +14,6 @@ const AppContainer = styled.div`
   background-color: rgb(45, 52, 54);
   color: #ffffff;
 `;
-
 const ContentWrapper = styled.div`
   display: flex;
   flex: 1;
